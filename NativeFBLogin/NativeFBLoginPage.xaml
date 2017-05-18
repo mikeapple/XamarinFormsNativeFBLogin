@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:NativeFBLogin" x:Class="NativeFBLogin.NativeFBLoginPage">
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+        <local:FacebookLoginButton x:Name="loginButton" VerticalOptions="Center" HorizontalOptions="Center" Text="Login with Facebook" />
+        <Label x:Name="resultLabel" Text="" VerticalOptions="Center" HorizontalOptions="Center" />
+    </StackLayout>
+</ContentPage>
